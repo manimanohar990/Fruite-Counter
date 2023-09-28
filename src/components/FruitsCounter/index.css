@@ -1,0 +1,58 @@
+.bg-container {
+  background-color: #ffd569;
+  max-width: 500px;
+  padding: 15px;
+}
+.card-container {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.higlet {
+  color: #ffd569;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mango {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.btn {
+  color: #ffffff;
+  width: 100px;
+  border: 0px solid;
+  font-family: 'Roboto';
+  background-color: #007bff;
+  border-radius: 5px;
+  height: 40px;
+}
+.banana {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size: 16px;
+  }
+}
